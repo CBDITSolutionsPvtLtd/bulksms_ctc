@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "bulksms_ctc"
+version = "0.0.1"
+description = "BulkSMS Click To Call integration for Frappe/ERPNext"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "license.txt"}
+
+[project.urls]
+Homepage = "https://github.com/your-org/bulksms_ctc"

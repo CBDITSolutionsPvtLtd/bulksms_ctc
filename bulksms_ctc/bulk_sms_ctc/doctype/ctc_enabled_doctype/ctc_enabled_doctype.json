@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-04-08 21:45:20.464447",
+ "doctype": "DocType",
+ "custom": 0,
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "target_doctype",
+  "receiver_field",
+  "column_break_anpb",
+  "is_active"
+ ],
+ "fields": [
+  {
+   "columns": 4,
+   "fieldname": "target_doctype",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Target Doctype",
+   "options": "DocType",
+   "reqd": 1
+  },
+  {
+   "columns": 3,
+   "description": "Exact fieldname from that doctype e.g. mobile_no",
+   "fieldname": "receiver_field",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Receiver Number Field",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_anpb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Active"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-04-08 21:55:51.848066",
+ "modified_by": "Administrator",
+ "module": "Bulk SMS CTC",
+ "name": "CTC Enabled DocType",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

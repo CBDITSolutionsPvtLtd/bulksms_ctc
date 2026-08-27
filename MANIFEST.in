@@ -1,0 +1,3 @@
+include bulksms_ctc/*.md
+include bulksms_ctc/*.txt
+recursive-include bulksms_ctc *.json *.js *.css *.html *.py *.txt

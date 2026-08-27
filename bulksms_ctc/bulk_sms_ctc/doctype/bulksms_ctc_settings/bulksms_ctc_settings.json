@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-04-08 22:32:34.163728",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "api_credential_section",
+  "api_id",
+  "api_password",
+  "column_break_bvvz",
+  "ivr_number",
+  "dial",
+  "timezone_id",
+  "ctc_button_doctype_section",
+  "doctype_config",
+  "users_allowed_click_to_call_section",
+  "user_permissions"
+ ],
+ "fields": [
+  {
+   "fieldname": "api_credential_section",
+   "fieldtype": "Section Break",
+   "label": "API Credential"
+  },
+  {
+   "fieldname": "api_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "API ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "api_password",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "API Password",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_bvvz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ivr_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "IVR Number",
+   "reqd": 1
+  },
+  {
+   "default": "agent",
+   "fieldname": "dial",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Dial Mode",
+   "options": "\nagent\ncustomer",
+   "reqd": 1
+  },
+  {
+   "default": "62",
+   "description": "'62' For India Asia/Kolkata",
+   "fieldname": "timezone_id",
+   "fieldtype": "Data",
+   "label": "Timezone ID"
+  },
+  {
+   "fieldname": "ctc_button_doctype_section",
+   "fieldtype": "Section Break",
+   "label": "CTC Button Doctype"
+  },
+  {
+   "fieldname": "doctype_config",
+   "fieldtype": "Table",
+   "label": "CTC Enabled Doctypes",
+   "options": "CTC Enabled DocType"
+  },
+  {
+   "fieldname": "users_allowed_click_to_call_section",
+   "fieldtype": "Section Break",
+   "label": "Users Allowed (Click To Call)"
+  },
+  {
+   "fieldname": "user_permissions",
+   "fieldtype": "Table",
+   "label": "Click To Call Users",
+   "options": "Click To Call User"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-04-09 10:55:15.623638",
+ "modified_by": "Administrator",
+ "module": "Bulk SMS CTC",
+ "name": "BulkSMS CTC Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_views": 1
+}
